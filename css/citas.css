@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+}
+
+.header {
+  background-color: rgb(235, 229, 247);
+}
+.header .nav {
+  display: flex;
+  background-color: rgb(235, 229, 247);
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header .menu {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(235, 229, 247);
+  list-style: none;
+  padding: 53px 0 0 0;
+  text-align: center;
+}
+.header .menu-item {
+  color: black;
+  width: max-content;
+}
+.header .menu-link {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  padding: 20px;
+}
+.header .menu-link:hover {
+  background-color: rgb(9, 49, 68);
+  color: rgb(255, 170, 0);
+}
+.header .inicio {
+  background-image: url(../img/inicio.jpg);
+  background-repeat: no-repeat;
+  background-size: 270px 94px;
+  padding: 50px 32px 25px 39px;
+  justify-content: center;
+}
+.header .citas {
+  background-color: rgb(245, 221, 142);
+}
+.header .galeria {
+  background-color: rgb(89, 201, 177);
+}
+.header .videos {
+  background-color: rgb(232, 177, 249);
+}
+.header .comentarios {
+  background-color: rgb(255, 191, 127);
+}
+
+.main {
+  background-color: rgb(235, 229, 247);
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+.main .contenedor {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  position: relative;
+}
+.main .contenedor .titulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  top: 50px;
+}
+.main .contenedor .titulo h1 {
+  font-size: 50px;
+}
+.main .contenedor .titulo h2 {
+  font-size: 15px;
+}
+.main .contenedor .subcontenedor {
+  display: flex;
+  flex-direction: column;
+  height: 800px;
+}
+.main .contenedor .subcontenedor .img {
+  width: 100%;
+  height: 90%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header .nav {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 229, 247);
+    align-items: center;
+  }
+  .header .menu {
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    list-style: none;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .header .menu-item {
+    margin: 0 auto;
+    padding: 30px 0px;
+    color: black;
+  }
+  .header .menu-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    width: 280px;
+  }
+  .header .inicio {
+    width: 280px;
+    background-image: url(../img/inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: 280px 100px;
+  }
+  .header .citas {
+    background-color: rgb(245, 221, 142);
+    font-size: 28px;
+    width: 100%;
+    padding: 20px 94.35px 20px 94.35px;
+  }
+  .header .galeria {
+    background-color: rgb(89, 201, 177);
+    font-size: 28px;
+    padding: 20px 79.547px 20px 79.547px;
+  }
+  .header .videos {
+    background-color: rgb(232, 177, 249);
+    font-size: 28px;
+    padding: 20px 81.489px 20px 81.489px;
+  }
+  .header .comentarios {
+    background-color: rgb(255, 191, 127);
+    font-size: 28px;
+    padding: 20px 43.375px 20px 43.375px;
+  }
+  .main {
+    background-color: rgb(235, 229, 247);
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    top: 0px;
+  }
+  .main .contenedor {
+    width: 280px;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    position: relative;
+  }
+  .main .contenedor .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 10px;
+  }
+  .main .contenedor .titulo h1 {
+    font-size: 15px;
+  }
+  .main .contenedor .titulo h2 {
+    font-size: 10px;
+    font-weight: lighter;
+  }
+  .main .contenedor .subcontenedor {
+    display: flex;
+    flex-direction: column;
+    height: 280px;
+    width: 280px;
+  }
+  .main .contenedor .subcontenedor .img {
+    width: 100%;
+    height: 90%;
+  }
+  .footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=citas.css.map */

@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Signika", sans-serif;
+}
+
+.header {
+  background-color: rgb(235, 229, 247);
+}
+.header .nav {
+  display: flex;
+  background-color: rgb(235, 229, 247);
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header .menu {
+  height: 80px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(235, 229, 247);
+  list-style: none;
+  padding: 53px 0 0 0;
+  text-align: center;
+}
+.header .menu-item {
+  color: black;
+  width: max-content;
+}
+.header .menu-link {
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  padding: 20px;
+}
+.header .menu-link:hover {
+  background-color: rgb(9, 49, 68);
+  color: rgb(255, 170, 0);
+}
+.header .inicio {
+  background-image: url(../img/inicio.jpg);
+  background-repeat: no-repeat;
+  background-size: 270px 94px;
+  padding: 50px 32px 25px 39px;
+  justify-content: center;
+}
+.header .citas {
+  background-color: rgb(245, 221, 142);
+}
+.header .galeria {
+  background-color: rgb(89, 201, 177);
+}
+.header .videos {
+  background-color: rgb(232, 177, 249);
+}
+.header .comentarios {
+  background-color: rgb(255, 191, 127);
+}
+
+.main {
+  background-color: rgb(235, 229, 247);
+  justify-content: center;
+  position: relative;
+  margin: 0 auto;
+  top: 0px;
+}
+.main .contenedor1 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+}
+.main .contenedor1 .imagen {
+  display: flex;
+  justify-content: center;
+}
+.main .contenedor1 .paseador {
+  width: 490px;
+  height: 420px;
+}
+.main .contenedor1 .subcontenedor {
+  display: flex;
+  flex-direction: column;
+}
+.main .contenedor1 .paja-titulo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  font-size: 28px;
+  color: black;
+  line-height: 95px;
+}
+.main .contenedor1 .paja-contenido {
+  display: flex;
+  text-align: justify;
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+.main .contenedor2 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+}
+.main .contenedor2 .imagen {
+  display: flex;
+  justify-content: center;
+}
+.main .contenedor2 .mapachito {
+  width: 490px;
+  height: 420px;
+}
+.main .contenedor2 .subcontenedor {
+  display: flex;
+  flex-direction: column;
+}
+.main .contenedor2 .paja-titulo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  font-size: 28px;
+  color: black;
+  line-height: 95px;
+}
+.main .contenedor2 .paja-contenido {
+  display: flex;
+  text-align: justify;
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+.main .contenedor3 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+}
+.main .contenedor3 .imagen {
+  display: flex;
+  justify-content: center;
+}
+.main .contenedor3 .entrenador {
+  width: 490px;
+  height: 420px;
+}
+.main .contenedor3 .subcontenedor {
+  display: flex;
+  flex-direction: column;
+}
+.main .contenedor3 .paja-titulo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  font-size: 28px;
+  color: black;
+  line-height: 95px;
+}
+.main .contenedor3 .paja-contenido {
+  display: flex;
+  text-align: justify;
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+.main .contenedor4 {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  background-color: white;
+  position: relative;
+}
+.main .contenedor4 .imagen {
+  display: flex;
+  justify-content: center;
+}
+.main .contenedor4 .contacto {
+  width: 490px;
+  height: 550px;
+}
+.main .contenedor4 .subcontenedor {
+  display: flex;
+  flex-direction: column;
+}
+.main .contenedor4 .paja-titulo {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: relative;
+  font-size: 28px;
+  color: black;
+  line-height: 95px;
+}
+.main .contenedor4 .paja-contenido {
+  display: flex;
+  text-align: justify;
+  width: 90%;
+  position: relative;
+  left: 5%;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header .nav {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 229, 247);
+    align-items: center;
+  }
+  .header .menu {
+    width: 280px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    list-style: none;
+    align-items: center;
+    padding-top: 10px;
+  }
+  .header .menu-item {
+    margin: 0 auto;
+    padding: 30px 0px;
+    color: black;
+  }
+  .header .menu-link {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    width: 280px;
+  }
+  .header .inicio {
+    width: 280px;
+    background-image: url(../img/inicio.jpg);
+    background-repeat: no-repeat;
+    background-size: 280px 100px;
+  }
+  .header .citas {
+    background-color: rgb(245, 221, 142);
+    font-size: 28px;
+    width: 100%;
+    padding: 20px 94.35px 20px 94.35px;
+  }
+  .header .galeria {
+    background-color: rgb(89, 201, 177);
+    font-size: 28px;
+    padding: 20px 79.547px 20px 79.547px;
+  }
+  .header .videos {
+    background-color: rgb(232, 177, 249);
+    font-size: 28px;
+    padding: 20px 81.489px 20px 81.489px;
+  }
+  .header .comentarios {
+    background-color: rgb(255, 191, 127);
+    font-size: 28px;
+    padding: 20px 43.375px 20px 43.375px;
+  }
+  .main .contenedor1 {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  .main .contenedor1 .paseador {
+    width: 280px;
+    height: 250px;
+  }
+  .main .contenedor1 .paja-titulo {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .main .contenedor2 {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  .main .contenedor2 .mapachito {
+    width: 280px;
+    height: 250px;
+  }
+  .main .contenedor2 .paja-titulo {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .main .contenedor3 {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  .main .contenedor3 .entrenador {
+    width: 280px;
+    height: 250px;
+  }
+  .main .contenedor3 .paja-titulo {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .main .contenedor4 {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+  }
+  .main .contenedor4 .contacto {
+    width: 280px;
+    height: 320px;
+  }
+  .main .contenedor4 .paja-titulo {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .main .footer {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

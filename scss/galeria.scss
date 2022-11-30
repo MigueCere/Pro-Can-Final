@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika&display=swap');
+$clr-uno: rgb(233, 164, 164);
+$clr-dos: rgb(245, 221, 142);
+$clr-tres: rgb(89, 201, 177);
+$clr-cuatro: rgb(232, 177, 249);
+$clr-cinco: rgb(255, 191, 127);
+$clr-prim: white;
+$clr-sec: rgb(235, 229, 247);
+$font-grd: 40px;
+$font-med: 28px;
+$font-3oct: 20px;
+$font-ch: 15px;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Signika', sans-serif;
+}
+
+
+.header {
+    background-color: $clr-sec;
+
+    .nav {
+        display: flex;
+        background-color: $clr-sec;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .menu {
+        height: 80px;
+        display: flex;
+        flex-direction: row;
+        background-color: $clr-sec;
+        list-style: none;
+        padding: 53px 0 0 0;
+
+    }
+
+    .menu-item {
+        // padding: 40px 0px;
+        color: black;
+        width: max-content;
+    }
+
+    .menu-link {
+        text-decoration: none;
+        font-size: $font-ch;
+        color: black;
+        padding: 20px;
+    }
+
+    .menu-link:hover{
+        background-color: rgb(9, 49, 68);
+        color: rgb(255, 170, 0);
+    }
+
+    .inicio {
+        // background-color: $clr-uno;
+        background-image: url(../img/inicio.jpg);
+        background-repeat: no-repeat;
+        background-size: 270px 94px;
+        padding: 50px 32px 25px 39px;
+        justify-content: center;
+    }
+
+    .citas {
+        background-color: $clr-dos;
+    }
+
+    .galeria {
+        background-color: $clr-tres;
+    }
+
+    .videos {
+        background-color: $clr-cuatro;
+    }
+
+    .comentarios {
+        background-color: $clr-cinco;
+    }
+}
+
+.main{
+    background-color: $clr-sec;
+
+    .titulo {
+        height: 80px;
+        display: flex;
+        max-width: 1200px;
+        margin: 0 auto;
+        justify-content: center;
+        line-height: 80px;
+        background-color: rgb(127, 195, 224);
+        color: rgb(16, 22, 106);
+        font-size: $font-med;
+        font-weight: bold;
+    }
+
+    .contenedor1{
+        .subcontenedor{
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            display: grid;
+            height: 1000px;
+            grid-template-rows: 23% 23% 23% 23% ;
+            grid-template-columns:  23% 23% 23% 23%;
+            justify-items: center;
+            align-items: center;
+            justify-content: space-between;
+            align-content: space-between;
+
+
+            .hijo1{
+                width: 100%;
+                height: 90%;
+            }
+
+            .hijo2{
+                width: 100%;
+                height: 90%;
+            }
+            .hijo3{
+                width: 100%;
+                height: 90%;
+            }
+            .hijo4{
+                width: 100%;
+                height: 90%;
+            }
+            .hijo5{
+                width: 100%;
+                height: 90%;
+            }
+            .hijo6{
+                width: 100%;
+                height: 90%;
+            }
+            .hijo7{
+                width: 100%;
+                height: 90%;
+            }
+            .hijo8{
+                width: 100%;
+                height: 90%;
+            }
+            .hijo9{
+                width: 100%;
+                height: 90%;
+            }
+            .hijo10{
+                width: 90%;
+                height: 90%;
+            }
+            .hijo11{
+                width: 90%;
+                height: 90%;
+            }
+            .hijo12{
+                width: 90%;
+                height: 90%;
+            }
+            .hijo13{
+                width: 90%;
+                height: 90%;
+            }
+            .hijo14{
+                width: 90%;
+                height: 90%;
+            }
+            .hijo15{
+                width: 90%;
+                height: 90%;
+            }
+            .hijo16{
+                width: 90%;
+                height: 90%;
+            }
+
+
+            .img{
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    top: 50px;
+}
+
+
+
+@media only screen and (max-width:600px) {
+
+    .header {
+
+        .nav {
+            height: 480px;
+            display: flex;
+            flex-direction: column;
+            background-color: $clr-sec;
+            align-items: center;
+        }
+
+        .menu {
+            width: 280px;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            background-color: $clr-prim;
+            list-style: none;
+            align-items: center;
+
+            padding-top: 10px;
+            // text-align: center;
+        }
+
+        .menu-item {
+            margin: 0 auto;
+            // height: 400px;
+            padding: 30px 0px;
+            color: black;
+        }
+
+        .menu-link {
+            text-decoration: none;
+            font-size: $font-ch;
+            color: black;
+            width: 280px;
+            // padding: 20px;
+
+        }
+
+        .inicio {
+            width: 280px;
+            background-image: url(../img/inicio.jpg);
+            background-repeat: no-repeat;
+            background-size: 280px 100px;
+            // padding: 50px 41.33px 20px 41.33px;
+        }
+
+
+        .citas {
+            background-color: $clr-dos;
+            font-size: $font-med;
+            width: 100%;
+            padding: 20px 94.35px 20px 94.35px;
+
+        }
+
+        .galeria {
+            background-color: $clr-tres;
+            font-size: $font-med;
+            padding: 20px 79.547px 20px 79.547px;
+        }
+
+        .videos {
+            background-color: $clr-cuatro;
+            font-size: $font-med;
+            padding: 20px 81.489px 20px 81.489px;
+
+        }
+
+        .comentarios {
+            background-color: $clr-cinco;
+            font-size: $font-med;
+            padding: 20px 43.375px 20px 43.375px;
+        }
+    }
+
+    .main{
+        background-color: $clr-sec;
+
+        .titulo {
+            height: 80px;
+            display: flex;
+            max-width: 1200px;
+            margin: 0 auto;
+            justify-content: center;
+            line-height: 80px;
+            background-color: rgb(127, 195, 224);
+            color: rgb(16, 22, 106);
+            font-size: $font-med;
+            font-weight: bold;
+        }
+        
+        .contenedor1{
+            .subcontenedor{
+                width: 280px;
+                height: 3900px;
+                margin: 0 auto;
+                background-color: white;
+                display: grid;
+                grid-template-columns: 90%;
+                grid-template-rows:200px 230px ;
+                justify-content: center;
+
+
+
+                
+                justify-items: center;
+                align-items: center;
+                // align-content: space-between;
+    
+    
+                .hijo1{
+                    width: 100%;
+                    height: 90%;
+                }
+    
+                .hijo2{
+                    width: 100%;
+                    height: 90%;
+                }
+                .hijo3{
+                    width: 100%;
+                    height: 90%;
+                }
+                .hijo4{
+                    width: 100%;
+                    height: 90%;
+                }
+                .hijo5{
+                    width: 100%;
+                    height: 90%;
+                }
+                .hijo6{
+                    width: 100%;
+                    height: 90%;
+                }
+                .hijo7{
+                    width: 100%;
+                    height: 90%;
+                }
+                .hijo8{
+                    width: 100%;
+                    height: 90%;
+                }
+                .hijo9{
+                    width: 100%;
+                    height: 90%;
+                }
+                .hijo10{
+                    width: 90%;
+                    height: 90%;
+                }
+                .hijo11{
+                    width: 90%;
+                    height: 90%;
+                }
+                .hijo12{
+                    width: 90%;
+                    height: 90%;
+                }
+                .hijo13{
+                    width: 90%;
+                    height: 90%;
+                }
+                .hijo14{
+                    width: 90%;
+                    height: 90%;
+                }
+                .hijo15{
+                    width: 90%;
+                    height: 90%;
+                }
+                .hijo16{
+                    width: 90%;
+                    height: 90%;
+                }
+    
+    
+                .img{
+                    height: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    
+    
+    }
+    }
